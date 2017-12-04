@@ -3,7 +3,7 @@
 // Use of this source code is governed by an MIT-style
 // license that can be found in the LICENSE file.
 
-package jwalterweatherman
+package jww
 
 import (
 	"fmt"
@@ -27,7 +27,7 @@ const (
 	LevelFatal
 )
 
-var prefixes map[Threshold]string = map[Threshold]string{
+var prefixes = map[Threshold]string{
 	LevelTrace:    "TRACE",
 	LevelDebug:    "DEBUG",
 	LevelInfo:     "INFO",
